@@ -1,6 +1,7 @@
 <?php
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
+
 /*
   | -------------------------------------------------------------------
   | AUTO-LOADER
@@ -94,6 +95,7 @@ $autoload['language'] = array();
   |	$autoload['model'] = array('model1', 'model2');
   |
  */
-$autoload['model'] = array();
+$autoload['model'] = array('images');
+$autoload['libraries'] = array('database', 'parser');
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
